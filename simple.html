@@ -1,0 +1,38 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Website Cageifier</title>
+
+        <meta name="description" content="So you have a website that you want to make awesome? Welcome to the future.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="jquery-2.1.0.min.js"></script>
+        <script src="jquery.cageify.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.img-1').cageify({
+                    position: 'top',
+                    margin: '10%',
+                    interval_min: 0,
+                    interval_max: 5000,
+                    speed: 100,
+                    display: 0.6,
+                    wait: 700,
+                    rotate: 180
+                });
+            });
+        </script>
+
+        <link rel="stylesheet" href="cageifier.css">
+    </head>
+
+    <body>
+        <img src="images/1.gif" alt="" class="img-1">
+
+        <iframe src="http://slashdot.org/"></iframe>
+    </body>
+</html>

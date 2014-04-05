@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+    <head>
+        <meta charset="utf-8">
+        <meta http-equiv="X-UA-Compatible" content="IE=edge">
+
+        <title>Website Cageifier</title>
+
+        <meta name="description" content="So you have a website that you want to make awesome? Welcome to the future.">
+        <meta name="viewport" content="width=device-width, initial-scale=1">
+
+        <script src="jquery-2.1.0.min.js"></script>
+        <script src="jquery.cageify.js"></script>
+
+        <script>
+            $(document).ready(function() {
+                $('.img-1').cageify({
+                    position: 'top',
+                    margin: '10%',
+                    interval_min: 0,
+                    interval_max: 5000,
+                    speed: 100,
+                    display: 0.6,
+                    wait: 700,
+                    rotate: 180
+                });
+
+                $('.img-2').cageify({
+                    position: 'left',
+                    margin: '34%',
+                    interval_min: 50,
+                    interval_max: 50,
+                    speed: 4000,
+                    display: 6,
+                    wait: 100
+                });
+
+                $('.img-3').cageify({
+                    position: 'bottom',
+                    margin: '50%',
+                    interval_min: 3000,
+                    interval_max: 4000,
+                    speed: 2000,
+                    display: 0.7,
+                    wait: 2000
+                });
+
+                $('.img-4').cageify({
+                    position: 'bottom',
+                    margin: '30%',
+                    interval_min: 1000,
+                    interval_max: 2500,
+                    speed: 2000,
+                    display: 2.5,
+                    wait: 2000
+                });
+            });
+        </script>
+
+        <link rel="stylesheet" href="cageifier.css">
+    </head>
+
+    <body>
+        <img src="images/1.gif" alt="" class="img-1">
+        <img src="images/2.png" alt="" class="img-2">
+        <img src="images/3.png" alt="" class="img-3">
+        <img src="images/4.png" alt="" class="img-4">
+
+        <iframe src="http://arstechnica.com/"></iframe>
+    </body>
+</html>

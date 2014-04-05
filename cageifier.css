@@ -1,0 +1,23 @@
+.img-1 {
+    width: 15%;
+}
+.img-2 {
+    width: 20%;
+    z-index: 999;
+}
+.img-3 {
+    width: 50%;
+}
+.img-4 {
+    width: 15%;
+}
+img {
+    height: auto;
+}
+body {
+    margin: 0;
+}
+iframe {
+    width: 100%;
+    height: 1200px;
+}
